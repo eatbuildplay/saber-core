@@ -26,8 +26,6 @@ abstract class FieldGroup {
 
   public function process() {
 
-    print 'processing...';
-
     // add the admin notice
 		$admin_notice = "success";
 

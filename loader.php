@@ -17,3 +17,5 @@ function saberCoreLoader( $className ) {
   require( $className . '.php' );
 
 }
+
+add_action('admin_post_saber_form', ['SaberCore\Fields\FieldGroup', 'process']);

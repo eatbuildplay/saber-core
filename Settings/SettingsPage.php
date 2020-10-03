@@ -51,8 +51,6 @@ abstract class SettingsPage {
     $this->position = $value;
   }
 
-  public function callback() {
-    print 'HELLO SUBPAGEEDDD';
-  }
+  abstract public function callback();
 
 }
